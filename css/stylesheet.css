@@ -1,0 +1,256 @@
+/* set_for_all  */
+body{
+    box-sizing: border-box;
+    font-weight: 400;
+    color: #000;
+    background: #ffffff;
+    line-height:1.9;
+    letter-spacing: 0px;
+    overflow-wrap: break-word;
+}
+.container{
+    max-width: 1170px;
+}
+.sec-padding{
+    padding: 150px 30px;
+}
+.heading h2{
+    font-size: 48px;
+    line-height: 1.25;
+    margin-bottom: 45px;
+}
+.heading h3{
+    font-size: 22px;
+    font-style: italic;
+    line-height: 2.2;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.heading-box{
+    border-right: 3px solid rgb(224, 222, 222);
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+a:hover{
+    color: #000;
+}
+ul{
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+img{
+    opacity: 1;
+    transition: opacity .9s,transform 1s;
+}
+img:hover, img:focus{
+    opacity: .9;
+    transform: scale3d(1.1,1.1,1);
+}
+.img-box{
+    overflow:hidden;
+}
+.img-fluid{
+ width: 100%;   
+}
+.sec_1{
+    background: url(../assets/295.jpg) no-repeat;
+    background-position: 50% 50%;
+    height: 400px;
+    background-size: cover;
+}
+.sec_1 .main_heading{
+    color: #ffffff;
+}
+.sec_1 .main_heading h2{
+    font-size: 2.8rem;
+}
+.sec_1 .main_heading caption{
+    font-size: 1.1rem;
+}
+.sec_2{
+    padding: 150px 30px;
+}
+.sec_2 p{
+    margin-bottom: 20px;
+}
+.sec_2 .dark-border{
+    border: 1.7px solid #e2e3e8;
+    width: 117px;
+}
+.sec_2 h3{
+    font-size: 22px;
+    font-style: italic;
+    line-height: 1.8;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.sec_2 p{
+    margin-bottom: 20px;
+}
+.sec_3{
+    background:url(../assets/st-lucia.jpg) no-repeat;
+    background-size: cover;
+    color: #ffffff;
+}
+@keyframes a_z{
+    from{width: 10%;}
+    to{width: 100%;}
+}
+
+.sec_3 .progress{    
+    background: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 0;
+    color: #ffffff;
+    height: 40px;
+    padding-left: 13px;
+    animation-name: a_z;
+    animation-duration: 2s;
+}
+.sec_3 .progressbar_box{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: space-between;
+}
+.sec_3 .progress-bar{    
+    color: #ffffff;
+    background: transparent;
+    font-size: 16px;
+    font-weight: 500;
+} 
+.sec_4 .caption h3{
+    line-height: 1.6;
+}
+.sec-4{
+    padding: 150px 30px;
+}
+.sec_4 figcaption{
+    background-color: rgb(248, 248, 248);
+    padding: 20px 20px 4px 20px;
+}
+.sec_4 figcaption p{
+    font-size: 18px;
+}
+.sec_5{
+    background: url(../assets/cube.jpg) no-repeat;
+    background-size: cover;
+    color: #ffffff;
+}
+.sec_5 .heading h2{
+    margin-bottom: 19px;
+}
+.sec_5 .heading h3{
+    line-height: 1.9;
+    margin-bottom: 45px;
+}
+.sec_6 .heading h2{
+    letter-spacing: -2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
